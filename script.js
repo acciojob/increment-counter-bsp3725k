@@ -4,11 +4,11 @@ let counter = 0;
 // Get the button and counter elements
 const incrementBtn = document.getElementById("incrementBtn");
 const counterParagraph = document.getElementById("counter");
-
+const url = location.href;
 // Add event listener to the button
 incrementBtn.addEventListener("click", () => {
     // Display alert with the current counter value
-    alert(`${counter}`);
+    alert(`${url} \n ${counter}`);
 
     // Increment the counter
     counter++;
