@@ -8,7 +8,7 @@ const url = location.href;
 // Add event listener to the button
 incrementBtn.addEventListener("click", () => {
     // Display alert with the current counter value
-    alert(`${url} \n ${counter}`);
+    alert(`http://localhost:3000 \n ${counter}`);
 
     // Increment the counter
     counter++;
