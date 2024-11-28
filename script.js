@@ -8,7 +8,7 @@ const counterParagraph = document.getElementById("counter");
 // Add event listener to the button
 incrementBtn.addEventListener("click", () => {
     // Display alert with the current counter value
-    alert(`localHost: 3000 says \n ${counter}`);
+    alert(`${counter}`);
 
     // Increment the counter
     counter++;
