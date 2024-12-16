@@ -6,9 +6,10 @@ const counterParagraph = document.getElementById("counter");
 // Add event listener to the button
 incrementBtn.addEventListener("click", () => {
     // Display alert with the current counter value
+	++counter;
     alert(`${counter}`);
     // Increment the counter
-    counter++;
+    
     // Update the counter paragraph text
     counterParagraph.textContent = counter;
 });
